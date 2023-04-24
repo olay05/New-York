@@ -1,0 +1,104 @@
+body {
+    background-color: rgb(221, 218, 218) ;
+    padding: 0% 0% 0% 0%;
+}
+     /* This is the header  section  */
+     
+.time {
+    background-color: white;
+    text-align: center;
+    margin-bottom: 15px;
+    
+    
+    
+}
+
+
+.time>p {
+    text-align: center;
+}
+
+
+    /* This is the sidebar  section  */
+
+.sidebar {
+    background-color: white;
+    text-align: left;
+    padding: 0% 0% 0% 0%;
+    margin-bottom: 1%;
+    margin-block-end: 1%;
+
+  
+    
+}
+
+ /* This is the main  section  */
+
+.main {
+    text-align: center;
+    background-color: white;
+    margin-bottom: 1rem;
+    /* display: flex;
+    padding-left: 3px; */
+    
+}
+
+
+p {
+    line-height: 1.5rem;
+    text-align: left;
+   padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+  padding-top: 1rem; 
+}
+
+h2 {
+    text-align: left;
+    padding-left: 1rem;
+}
+
+h3 {
+    text-align: left ;
+    padding-left: 1rem;
+}
+
+
+
+*{
+    box-sizing: border-box;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: block;
+  }
+  
+  [class*="col-"] {
+    float: left;
+    padding: 0px;
+   
+  }
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+   /* This is the footer  section  */
+
+.footer {
+    background-color: black;
+    color: white;
+    text-align: left;
+    
+  }
